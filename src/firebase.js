@@ -22,3 +22,5 @@ const provider = new GoogleAuthProvider(); // Googleログイン専用の「認�
 // 他のファイルでも使えるように、エクスポート
 export { db, auth, provider };
 
+console.log("Firebase config from Vercel env:", firebaseConfig);
+console.log("authDomain:", firebaseConfig.authDomain);
